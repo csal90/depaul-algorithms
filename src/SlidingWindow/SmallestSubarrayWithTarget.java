@@ -16,21 +16,31 @@ public class SmallestSubarrayWithTarget {
     Optimal:
     Time complexity: O(n)
     Space complexity: O(1)
+    This sol uses two pointers:
+    1) We first move r until we get a sum >= target
+    2) Then, we move l to the RIGHT until sum < target
+    3) During this, we store the min length between l and r
+
+    Time complexity explained:
+    Our main while loop (r < n) takes O(n) time since r will visit each element in our array once.
+    The inner while loop is not dependent on our input size n therefore it does not create a quadratic solution.
+    It is simply checking a condition and updating our variables.
     */
 
     public static int optimal(int target, int[] nums) {
         int n = nums.length;
-        int i = 0, j = 0;
-        int currWindow = 0, smallestWindow = Integer.MAX_VALUE;
+        int l = 0, r = 0;
+        int sum = 0, res = Integer.MAX_VALUE;
 
-        while (j < n) {
-            currWindow += nums[j++]; // open the window
-            while (currWindow >= target) { // close the window
-                smallestWindow = Math.min(smallestWindow, j - i);
-                currWindow -= nums[i++];
+        while (r < n) {
+            sum += nums[r++];
+            while (sum >= target) {
+                res = Math.min(res, r - l);
+                sum -= nums[l++];
             }
         }
-        return smallestWindow == Integer.MAX_VALUE ? 0 : smallestWindow;
+
+        return res == Integer.MAX_VALUE ? 0 : res;
     }
 
     public static int bruteForce(int target, int[] nums) {
