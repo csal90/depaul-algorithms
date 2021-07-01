@@ -2,7 +2,7 @@ package SlidingWindow;
 
 import java.util.Arrays;
 
-public class MaximumSumSubarrayOfSizeK {
+public class _1_MaximumSumSubarrayOfSizeK {
     public static void main(String[] args) {
         int nums[] = {100, 200, 300, 400};
         int k = 2;
