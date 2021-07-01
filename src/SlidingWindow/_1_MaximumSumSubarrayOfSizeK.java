@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class _1_MaximumSumSubarrayOfSizeK {
     public static void main(String[] args) {
-        int nums[] = {100, 200, 300, 400};
+        int[] nums = {100, 200, 300, 400};
         int k = 2;
         System.out.println(optimal(nums, k));
         System.out.println(bruteForce(nums, k));

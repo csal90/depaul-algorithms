@@ -7,6 +7,7 @@ public class _8_PermutationInString {
         String s1 = "ab", s2 = "eidbaooo";
         System.out.println(checkInclusion(s1, s2));
     }
+
     public static boolean checkInclusion(String s1, String s2) {
         //int[] count = new int[26];
         //for (char c : s1.toCharArray()) count[c - 'a']++;

@@ -41,7 +41,7 @@ public class _6_LongestRepeatingCharacterReplacement {
             char right = s.charAt(r);
             map.put(right, map.getOrDefault(right, 0) + 1);
             maxRepeat = Math.max(maxRepeat, map.get(right));
-            if(r - l + 1 - maxRepeat > k) {
+            if (r - l + 1 - maxRepeat > k) {
                 char left = s.charAt(l);
                 map.put(left, map.get(left) - 1);
                 l++;

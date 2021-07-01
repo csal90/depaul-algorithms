@@ -8,6 +8,7 @@ public class _9_FindAllAnagramsInAString {
         String s = "cbaebabacd", p = "abc";
         System.out.println(findAnagrams(s, p));
     }
+
     public static List<Integer> findAnagrams(String s, String p) {
         int[] count = new int[26];
 

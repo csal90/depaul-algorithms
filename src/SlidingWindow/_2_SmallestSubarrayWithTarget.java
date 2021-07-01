@@ -2,7 +2,7 @@ package SlidingWindow;
 
 public class _2_SmallestSubarrayWithTarget {
     public static void main(String[] args) {
-        int[] nums = {2,3,1,2,4,3};
+        int[] nums = {2, 3, 1, 2, 4, 3};
         int target = 7;
         System.out.println(optimal(target, nums));
         System.out.println(bruteForce(target, nums));

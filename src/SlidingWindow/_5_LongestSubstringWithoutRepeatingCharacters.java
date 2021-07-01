@@ -8,6 +8,7 @@ public class _5_LongestSubstringWithoutRepeatingCharacters {
         String s = "abcabcbb";
         System.out.println(optimal(s));
     }
+
     /*
     Optimal:
     TC: O(n)
