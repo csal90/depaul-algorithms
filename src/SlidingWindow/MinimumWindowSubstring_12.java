@@ -8,7 +8,7 @@ public class MinimumWindowSubstring_12 {
     /*
     IMPORTANT INSIGHT!
     When a problem asks to find **maximum** substring, we should update the maximum AFTER the inner while loop.
-    When a problem asks to find **maximum** substring, we should update the minimum INSIDE the inner while loop.
+    When a problem asks to find **minimum** substring, we should update the minimum INSIDE the inner while loop.
 
     Algorithm:
     1) First, we count the frequency for the characters in String t.
