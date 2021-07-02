@@ -2,7 +2,7 @@ package SlidingWindow;
 
 import java.util.HashMap;
 
-public class _4_FruitIntoBaskets {
+public class FruitIntoBaskets_4 {
     public static void main(String[] args) {
         int[] tree = {1, 2, 1};
         System.out.println(optimal(tree));

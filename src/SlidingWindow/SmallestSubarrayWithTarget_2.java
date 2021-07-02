@@ -1,6 +1,6 @@
 package SlidingWindow;
 
-public class _2_SmallestSubarrayWithTarget {
+public class SmallestSubarrayWithTarget_2 {
     public static void main(String[] args) {
         int[] nums = {2, 3, 1, 2, 4, 3};
         int target = 7;

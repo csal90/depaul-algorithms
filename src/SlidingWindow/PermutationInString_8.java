@@ -2,7 +2,7 @@ package SlidingWindow;
 
 import java.util.HashMap;
 
-public class _8_PermutationInString {
+public class PermutationInString_8 {
     public static void main(String[] args) {
         String s1 = "ab", s2 = "eidbaooo";
         System.out.println(checkInclusion(s1, s2));

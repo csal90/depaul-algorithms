@@ -1,6 +1,6 @@
 package SlidingWindow;
 
-public class _10_MinimumWindowSubstring {
+public class MinimumWindowSubstring_10 {
     public static void main(String[] args) {
 
     }

@@ -3,7 +3,7 @@ package SlidingWindow;
 import java.util.HashSet;
 import java.util.Set;
 
-public class _5_LongestSubstringWithoutRepeatingCharacters {
+public class LongestSubstringWithoutRepeatingCharacters_5 {
     public static void main(String[] args) {
         String s = "abcabcbb";
         System.out.println(optimal(s));

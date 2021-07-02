@@ -2,7 +2,7 @@ package SlidingWindow;
 
 import java.util.HashMap;
 
-public class _3_LongestSubstringAtMostKDistinctCharacters {
+public class LongestSubstringAtMostKDistinctCharacters_3 {
     public static void main(String[] args) {
         String s = "eceba";
         int k = 2;

@@ -1,6 +1,6 @@
 package SlidingWindow;
 
-public class _7_MaxConsecutiveOnesIII {
+public class MaxConsecutiveOnesIII_7 {
     public static void main(String[] args) {
         int[] nums = {1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
         int k = 2;

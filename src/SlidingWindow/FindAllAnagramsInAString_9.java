@@ -3,7 +3,7 @@ package SlidingWindow;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _9_FindAllAnagramsInAString {
+public class FindAllAnagramsInAString_9 {
     public static void main(String[] args) {
         String s = "cbaebabacd", p = "abc";
         System.out.println(findAnagrams(s, p));

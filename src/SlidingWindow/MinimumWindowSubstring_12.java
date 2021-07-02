@@ -1,6 +1,6 @@
 package SlidingWindow;
 
-public class _12_MinimumWindowSubstring {
+public class MinimumWindowSubstring_12 {
     public static void main(String[] args) {
         String s = "ADOBECODEBANC", t = "ABC";
         System.out.println(minWindow(s, t));
